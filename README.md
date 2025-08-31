@@ -1,2 +1,2 @@
-# aplicacoes_web_e_moveis
+# Aplicação Web e Móveis
 Trabalho final da disciplina Aplicação Web e Móveis
