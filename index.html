@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Web Design Task: Task</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="title">Luciana Rolim</div>
+      <nav>
+        <ul>
+          <li>
+            <a href="#" id="linkSobreMim">Sobre Mim</a>
+          </li>
+          <li>
+            <a href="#" id="linkEducacao">Educação</a>
+          </li>
+          <li>
+            <a href="#" id="linkPortifolio">Portifólio</a>
+          </li>
+          <li>
+            <a href="#" id="linkContatos">Contatos</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <article id="conteudo">
+        <h1 class="main-title">Sobre Mim</h1>
+        <p>
+          Olá! Meu nome é Luciana Rolim, sou desenvolvedora de software com foco em Machine Learning com paixão por criar soluções digitais que facilitem a vida das pessoas. 
+        </p>
+        <p>
+          Já trabalhei em projetos no campo de visão computacional e processamento digital de sinais para automatizar a detecção de anomalias. Minha missão é transformar ideias em código que resolvam o problema e deixem os usuários satisfeitos com a solução construída.
+        </p>
+
+      </article>
+
+      <div id="formularioContato">
+        <h2>Formulário para Contato:</h2>
+        <form onsubmit="return mostrarMensagemERedirecionar()">
+          <label for="nome">Nome: </label>
+          <input type="text" id="nome" name="nome" placeholder="Digite seu nome aqui"><br><br>
+          <label for="email">Email: </label>
+          <input type="email" id="email" name="email" placeholder="nome@xxx.xxx"><br><br>
+          <label for="mensagem">Mensagem: </label><br>
+          <textarea id="caixaTexto" name="mensagem" rows="10" cols="50" placeholder="Digite aqui sua mensagem :)"></textarea><br>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+
+      <aside class="sidebar">
+        <p>
+          Seja bem-vindo ao meu site!
+        </p>
+        <p>Caso tenha alguma dúvida ou queira fazer alguma sugestão, não hesite em entrar em contato :)</p>
+      </aside>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
